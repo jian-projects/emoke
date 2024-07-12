@@ -1,0 +1,8 @@
+[
+    ["neu", "neutral"],
+    ["fru", "frustrated"],
+    ["ang", "angry"],
+    ["sad", "sad"],
+    ["hap", "happy"],
+    ["exc", "excited"]
+]

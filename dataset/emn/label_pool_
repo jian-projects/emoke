@@ -1,0 +1,9 @@
+[
+    ["Neutral", "neutral"],
+    ["Joyful", "joyful"],
+    ["Powerful", "powerful"],
+    ["Sad", "sad"],
+    ["Mad", "mad"],
+    ["Scared", "scared"],
+    ["Peaceful", "peaceful"]
+]

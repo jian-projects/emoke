@@ -1,0 +1,1 @@
+2024-07-12 10:56:37.167 | WARNING  | processor:__init__:52 - epochs: 6, early_stop: 6, batch_size: 32, learning_rate_pre: 0.0003, seed: 3235, 

@@ -1,0 +1,7 @@
+2024-07-12 10:59:03.923 | WARNING  | processor:__init__:52 - epochs: 6, early_stop: 6, batch_size: 32, learning_rate_pre: 0.0003, seed: 1263, 
+2024-07-12 11:02:41.547 | INFO     | utils_model:on_validation_end:92 - valid: {"f1": 0.5912, "acc": 0.6258, "loss": 1.088, "epoch": 0.0}
+2024-07-12 11:02:58.618 | INFO     | utils_model:on_test_end:125 - test: {"f1": 0.627, "acc": 0.6579, "loss": 1.017, "epoch": 0.0}
+2024-07-12 11:03:42.579 | INFO     | utils_model:on_train_epoch_end:74 - train_eval: {"f1": 0.4594, "loss": 1.724, "acc": 0.5213, "epoch": 0.0}
+2024-07-12 11:06:40.324 | INFO     | utils_model:on_validation_end:92 - valid: {"f1": 0.6464, "acc": 0.6564, "loss": 1.015, "epoch": 1.0}
+2024-07-12 11:06:57.606 | INFO     | utils_model:on_test_end:125 - test: {"f1": 0.6608, "acc": 0.6697, "loss": 0.988, "epoch": 1.0}
+2024-07-12 11:08:24.418 | INFO     | utils_model:on_train_epoch_end:74 - train_eval: {"f1": 0.6307, "loss": 1.316, "acc": 0.6514, "epoch": 1.0}

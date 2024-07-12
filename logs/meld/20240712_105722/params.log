@@ -1,0 +1,58 @@
+2024-07-12 10:57:46.217 | INFO     | processor:__init__:45 - file.plm_dir: /home/Pretrained_Models/
+2024-07-12 10:57:46.217 | INFO     | processor:__init__:45 - file.data_dir: dataset/
+2024-07-12 10:57:46.217 | INFO     | processor:__init__:45 - file.save_dir: checkpoints/meld/
+2024-07-12 10:57:46.217 | INFO     | processor:__init__:45 - file.cache_dir: checkpoints/meld/
+2024-07-12 10:57:46.217 | INFO     | processor:__init__:45 - file.log: ./logs/meld/
+2024-07-12 10:57:46.217 | INFO     | processor:__init__:45 - file.record: ./records/meld/
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.tasks: ['erc', 'meld']
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.models: [None, 'emoke']
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.epochs: 6
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.device: cuda
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.device_ids: [0]
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.do_test: True
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.do_valid: True
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.do_train: True
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.early_stop: 6
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.save_model: 0
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.log_step_rate: 1.2
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.log_step_rate_max: 3.0
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.seed: 4343
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.l2reg: 0.01
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.data_rate: 1.0
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.batch_size: 32
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.warmup_ratio: 0.3
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.weight_decay: 0.001
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.adam_epsilon: 1e-08
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.max_grad_norm: 5.0
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.learning_rate: 0.0003
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.learning_rate_pre: 0.0003
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.display: ['epochs', 'early_stop', 'batch_size', 'learning_rate_pre', 'seed']
+2024-07-12 10:57:46.218 | INFO     | processor:__init__:45 - train.inference: 0
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - train.wandb: 0
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.name: emoke
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.framework: None
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.drop_rate: 0.1
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.epoch_before: False
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.epoch_every: False
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.epoch_after: False
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.scale: large
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.use_lora: 1
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.use_rnn: 1
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.constraints: ['ekd', 'eka', 'ekp']
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.setting: online
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.layer_num: 4
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.ekl: [1.0, 1.0, 1.0]
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.plm: /home/Pretrained_Models/roberta-large
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.data_dir: checkpoints/meld/meld/
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.data: checkpoints/meld/meld/online.emoke.large
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.baseline: 0
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.tokenizer: None
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.optim_sched: ['AdamW', 'cosine']
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.save_path: checkpoints/meld/4343.emoke.1.1.1.pth
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.before_epoch: False
+2024-07-12 10:57:46.219 | INFO     | processor:__init__:45 - model.l_rate: lin
+2024-07-12 10:57:46.220 | INFO     | processor:__init__:45 - logger.params: <loguru.logger handlers=[(id=1, level=30, sink=<stdout>), (id=2, level=10, sink='./logs/meld/20240712_105722/params.log'), (id=3, level=10, sink='./logs/meld/20240712_105722/process.log')]>
+2024-07-12 10:57:46.220 | INFO     | processor:__init__:45 - logger.process: <loguru.logger handlers=[(id=1, level=30, sink=<stdout>), (id=2, level=10, sink='./logs/meld/20240712_105722/params.log'), (id=3, level=10, sink='./logs/meld/20240712_105722/process.log')]>
+2024-07-12 10:57:46.220 | INFO     | processor:__init__:46 - 
+ ====================================== 
+
